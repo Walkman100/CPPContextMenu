@@ -1,3 +1,4 @@
+// https://devblogs.microsoft.com/oldnewthing/20030723-00/?p=43073
 #define STRICT
 #include <windows.h>
 #include <windowsx.h>
