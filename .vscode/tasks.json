@@ -2,16 +2,16 @@
     "version": "2.0.0",
     "options": {
         "env": {
-            "INCLUDE": "C:\\ProgramFiles\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\ATLMFC\\include;C:\\ProgramFiles\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\include;C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\include\\um;C:\\ProgramFiles\\Windows Kits\\10\\include\\10.0.18362.0\\ucrt;C:\\ProgramFiles\\Windows Kits\\10\\include\\10.0.18362.0\\shared;C:\\ProgramFiles\\Windows Kits\\10\\include\\10.0.18362.0\\um;C:\\ProgramFiles\\Windows Kits\\10\\include\\10.0.18362.0\\winrt;C:\\ProgramFiles\\Windows Kits\\10\\include\\10.0.18362.0\\cppwinrt",
-            "LIB": "C:\\ProgramFiles\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\ATLMFC\\lib\\x86;C:\\ProgramFiles\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\lib\\x86;C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\lib\\um\\x86;C:\\ProgramFiles\\Windows Kits\\10\\lib\\10.0.18362.0\\ucrt\\x86;C:\\ProgramFiles\\Windows Kits\\10\\lib\\10.0.18362.0\\um\\x86",
-            "LIBPATH": "C:\\ProgramFiles\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\ATLMFC\\lib\\x86;C:\\ProgramFiles\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\lib\\x86;C:\\ProgramFiles\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\lib\\x86\\store\\references;C:\\ProgramFiles\\Windows Kits\\10\\UnionMetadata\\10.0.18362.0;C:\\ProgramFiles\\Windows Kits\\10\\References\\10.0.18362.0;C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319"
+            "INCLUDE": "C:/ProgramFiles/Microsoft Visual Studio/2019/Community/SDK/ScopeCppSDK/vc15/VC/include;C:/ProgramFiles/Microsoft Visual Studio/2019/Community/SDK/ScopeCppSDK/vc15/SDK/include/shared;C:/ProgramFiles/Microsoft Visual Studio/2019/Community/SDK/ScopeCppSDK/vc15/SDK/include/ucrt;C:/ProgramFiles/Microsoft Visual Studio/2019/Community/SDK/ScopeCppSDK/vc15/SDK/include/um",
+            "LIB": "C:/ProgramFiles/Microsoft Visual Studio/2019/Community/SDK/ScopeCppSDK/vc15/VC/lib;C:/ProgramFiles/Microsoft Visual Studio/2019/Community/SDK/ScopeCppSDK/vc15/SDK/lib",
+            "LIBPATH": "C:/ProgramFiles/Windows Kits/10/References;C:/Windows/Microsoft.NET/Framework/v4.0.30319"
         }
     },
     "tasks": [
         {
             "type": "shell",
             "label": "C/C++: cl.exe build active file",
-            "command": "C:\\ProgramFiles\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\Hostx86\\x86\\cl.exe",
+            "command": "C:\\ProgramFiles\\Microsoft Visual Studio\\2019\\Community\\SDK\\ScopeCppSDK\\vc15\\VC\\bin\\cl.exe",
             "args": [
                 "/Zi",
                 "/EHsc",
